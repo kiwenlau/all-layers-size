@@ -1,0 +1,21 @@
+41988b514f35        8 weeks ago         /bin/sh -c #(nop) CMD ["irb"]                   0 B
+feb91815a223        8 weeks ago         /bin/sh -c #(nop) ENV BUNDLE_APP_CONFIG=/usr/   0 B
+3b6c9f2a7111        8 weeks ago         /bin/sh -c gem install bundler                  && bundle con       1.089 MB
+54a3de9935c3        8 weeks ago         /bin/sh -c #(nop) ENV PATH=/usr/local/bundle/   0 B
+ba66f7bfff65        8 weeks ago         /bin/sh -c #(nop) ENV GEM_HOME=/usr/local/bun   0 B
+1f73c7b26f16        8 weeks ago         /bin/sh -c echo 'gem: --no-rdoc --no-ri' >> ~   23 B
+b662a23c9a99        8 weeks ago         /bin/sh -c #(nop) ENV PATH=/opt/jruby/bin:/us   0 B
+3970dceb27de        8 weeks ago         /bin/sh -c mkdir /opt/jruby   && curl -fSL ht   51.85 MB
+0bad624eca9f        8 weeks ago         /bin/sh -c #(nop) ENV JRUBY_SHA1=3c11f01d38b9   0 B
+1c9acea4bdc3        8 weeks ago         /bin/sh -c #(nop) ENV JRUBY_VERSION=1.7.20      0 B
+5efdfd717e36        8 weeks ago         /bin/sh -c apt-get update && apt-get install    16.24 MB
+e75aeb597a7f        8 weeks ago         /bin/sh -c /var/lib/dpkg/info/ca-certificates   412.8 kB
+69b0d7eb9e5a        8 weeks ago         /bin/sh -c apt-get update && apt-get install    310.4 MB
+d163542c0168        8 weeks ago         /bin/sh -c #(nop) ENV CA_CERTIFICATES_JAVA_VE   0 B
+d336a77bd1b2        8 weeks ago         /bin/sh -c #(nop) ENV JAVA_DEBIAN_VERSION=8u4   0 B
+cb521ad94585        8 weeks ago         /bin/sh -c #(nop) ENV JAVA_VERSION=8u45         0 B
+ca217f610c63        8 weeks ago         /bin/sh -c #(nop) ENV LANG=C.UTF-8              0 B
+f34f6c217212        8 weeks ago         /bin/sh -c apt-get update && apt-get install    679.6 kB
+546bcc1f950b        8 weeks ago         /bin/sh -c apt-get update && apt-get install    45.14 MB
+c63978236aac        8 weeks ago         /bin/sh -c #(nop) CMD ["/bin/bash"]             0 B
+1021894f267f        8 weeks ago         /bin/sh -c #(nop) ADD file:a7b8a07c1caba9ef38   126.2 MB

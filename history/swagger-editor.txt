@@ -1,0 +1,19 @@
+ff61d7bfda17        4 months ago         /bin/sh -c #(nop) CMD [/bin/sh -c grunt build   0 B
+3c5158733227        4 months ago         /bin/sh -c #(nop) EXPOSE 80/tcp                 0 B
+8215a030e8ab        4 months ago         /bin/sh -c #(nop) ADD dir:8534582bde5aa67aafe   698 kB
+5aa3d2f00fa8        4 months ago         /bin/sh -c bower --allow-root install           120.8 MB
+744a2173b7e7        4 months ago         /bin/sh -c #(nop) ADD file:5246964c582ff8e1e8   44 B
+289eb2919b18        4 months ago         /bin/sh -c #(nop) ADD file:d4f1e33ae7a0b163eb   922 B
+a2bebd23e970        4 months ago         /bin/sh -c npm install -g bower grunt-cli       34.54 MB
+12589745597b        4 months ago         /bin/sh -c npm install                          358 MB
+8bfb10533ec2        4 months ago         /bin/sh -c #(nop) ADD file:5e56db6aa530d2c8ef   2.031 kB
+6dad509e6e13        4 months ago         /bin/sh -c #(nop) WORKDIR /runtime              0 B
+b20022aa994c        4 months ago         /bin/sh -c ln -s /usr/bin/nodejs /usr/local/b   15 B
+f7d1a0c65297        4 months ago         /bin/sh -c apt-get update && apt-get install    202.2 MB
+b4bf25e902be        4 months ago         /bin/sh -c #(nop) ENV DEBIAN_FRONTEND=noninte   0 B
+ca7a0d5de2eb        4 months ago         /bin/sh -c #(nop) MAINTAINER Marcello_deSales   0 B
+5ba9dab47459        5 months ago         /bin/sh -c #(nop) CMD [/bin/bash]               0 B
+51a9c7c1f8bb        5 months ago         /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/   1.895 kB
+5f92234dcf1e        5 months ago         /bin/sh -c echo '#!/bin/sh' > /usr/sbin/polic   194.5 kB
+27d47432a69b        5 months ago         /bin/sh -c #(nop) ADD file:62400a49cced0d7521   188.1 MB
+511136ea3c5a        2.047972 years ago                                                   0 B
