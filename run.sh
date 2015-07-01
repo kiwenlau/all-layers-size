@@ -1,7 +1,9 @@
 #!/bin/bash
 
-imagelist=(axle-base gocd-server)
+# 31 latest image
+imagelist=(axle-base sultans-bin haproxy cb-shell dnsutils node-metrics container-metrics ruby-base ipsec multilevel drupal jruby openjdk mono glassfish jenkins-slave quickstart-python exhibitor ubuntu-perl swagger-editor serf dnsmasq gocd-base gocd-agent drill ubuntu-perl-dev devmachine buildpack-runner gcc buildstep gocd-server)
 
+imagetag=latest
 
 # get the history of images 
 rm -rf history &> /dev/null
