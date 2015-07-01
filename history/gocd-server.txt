@@ -1,0 +1,28 @@
+bbb2caf459e2        11 months ago        /bin/sh -c #(nop) CMD [/opt/src/go-server/ser   0 B
+44698ccac05c        11 months ago        /bin/sh -c #(nop) EXPOSE map[8153/tcp:{}]       0 B
+ca6142750e8c        11 months ago        /bin/sh -c rm -rf /opt/src/${GOFILE}            0 B
+059954cb3f81        11 months ago        /bin/sh -c cd /opt/src     && unzip ${GOFILE}   132.9 MB
+d22e7594881b        11 months ago        /bin/sh -c mkdir -p /opt/src     && cd /opt/s   132.9 MB
+0578bdce3c24        11 months ago        /bin/sh -c #(nop) ENV GOURL=http://download.g   0 B
+a3f251b4f0e1        11 months ago        /bin/sh -c #(nop) ENV GOFILE=go-server-14.2.0   0 B
+a9551577baf8        11 months ago        /bin/sh -c #(nop) ENV GOMINOR=14.2.0-377        0 B
+2028e8a2970a        11 months ago        /bin/sh -c #(nop) ENV GOVERSION=14.2.0          0 B
+521771a1e749        11 months ago        /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
+721f5f8458da        11 months ago        /bin/sh -c #(nop) ENV DAEMON=N                  0 B
+52dec7e34889        11 months ago        /bin/sh -c apt-get -y -qq --force-yes clean     0 B
+021395a2fed6        11 months ago        /bin/sh -c apt-get -y -qq --force-yes update    235.2 MB
+1818020d87ab        11 months ago        /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
+97faf481e0ef        11 months ago        /bin/sh -c #(nop) ENV JAVA_HOME=/usr/lib/jvm/   0 B
+215d8e5c3afa        11 months ago        /bin/sh -c apt-get -y -qq --force-yes clean     0 B
+767cb0646bac        11 months ago        /bin/sh -c add-apt-repository -y ppa:webupd8t   460.4 MB
+dcd01c67be9d        11 months ago        /bin/sh -c #(nop) ENV JDK=oracle-java7-instal   0 B
+55116292b253        11 months ago        /bin/sh -c #(nop) ENV JDK_LIC=shared/accepted   0 B
+66a08ad2904f        11 months ago        /bin/sh -c #(nop) ENV JDK_INST=oracle-java7-i   0 B
+850b5e6cfe58        11 months ago        /bin/sh -c sed -i 's/main$/main universe/' /e   44.98 MB
+8d8858d9ae05        11 months ago        /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
+e54ca5efa2e9        12 months ago        /bin/sh -c apt-get update && apt-get install    8 B
+6c37f792ddac        12 months ago        /bin/sh -c apt-get update && apt-get install    83.43 MB
+83ff768040a0        12 months ago        /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/   1.903 kB
+2f4b4d6a4a06        12 months ago        /bin/sh -c echo '#!/bin/sh' > /usr/sbin/polic   194.5 kB
+d7ac5e4f1812        12 months ago        /bin/sh -c #(nop) ADD file:adc47d03da6bb2418e   192.5 MB
+511136ea3c5a        2.047884 years ago                                                   0 B
