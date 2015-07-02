@@ -1,0 +1,37 @@
+d91204bfd568        4 weeks ago         /bin/sh -c #(nop) CMD ["/usr/bin/zsh"]          0 B
+ca05afa7c15d        4 weeks ago         /bin/sh -c #(nop) WORKDIR /home/app             0 B
+eef947f07f69        4 weeks ago         /bin/sh -c #(nop) VOLUME [/home/app/public]     0 B
+2a7a56ed704c        4 weeks ago         /bin/sh -c #(nop) ENV TERM=xterm-256color       0 B
+3a0948ecf87d        4 weeks ago         /bin/sh -c git clone https://github.com/robby   3.807 MB
+a6cbe38ff55f        4 weeks ago         /bin/sh -c printf 'y' | vim +BundleInstall +q   270 MB
+5658968b6ad6        4 weeks ago         /bin/sh -c ln -s ${DOTFILE}/.bash_aliases ${H   745 B
+717271b0e7d4        4 weeks ago         /bin/sh -c git clone https://github.com/joaod   1.797 MB
+3b9cd6f93718        4 weeks ago         /bin/sh -c #(nop) ENV DOTFILE=/home/app/local   0 B
+2ddc12be0688        4 weeks ago         /bin/sh -c curl -L ${GO_URL} | tar -C ${HOMES   229.4 MB
+ce02eced91f4        4 weeks ago         /bin/sh -c #(nop) ENV GO_URL=https://storage.   0 B
+a0c7055143ea        4 weeks ago         /bin/sh -c #(nop) ENV GO_TARNAME=go1.4.2.linu   0 B
+57c9b53fc4fa        4 weeks ago         /bin/sh -c #(nop) ENV GO_FILENAME=go1.4.2.lin   0 B
+1efb590f530e        4 weeks ago         /bin/sh -c #(nop) ENV GO_VERSION=1.4.2          0 B
+ab7af340fc08        4 weeks ago         /bin/sh -c #(nop) ENV GOBIN=/home/app/local/g   0 B
+27d4f1a15ff2        4 weeks ago         /bin/sh -c #(nop) ENV GOPATH=/home/app/local/   0 B
+436074a8c0bb        4 weeks ago         /bin/sh -c #(nop) ENV GOROOT=/home/app/local/   0 B
+161435243e27        4 weeks ago         /bin/sh -c curl -L ${IO_URL} | tar -C ${HOMES   26.18 MB
+dedb0d43d1d2        4 weeks ago         /bin/sh -c #(nop) ENV IO_URL=https://iojs.org   0 B
+095271f4a932        4 weeks ago         /bin/sh -c #(nop) ENV IO_TARNAME=iojs-v2.0.1-   0 B
+614fffb743c6        4 weeks ago         /bin/sh -c #(nop) ENV IO_FILENAME=iojs-v2.0.1   0 B
+64427b470208        4 weeks ago         /bin/sh -c #(nop) ENV IO_VERSION=v2.0.1         0 B
+2b78870075ce        4 weeks ago         /bin/sh -c mkdir -p $HOME/public     && mkdir   0 B
+3e6a173335ae        4 weeks ago         /bin/sh -c #(nop) ENV HOMEBIN=/home/app/local   0 B
+9217bc9200ea        4 weeks ago         /bin/sh -c #(nop) ENV HOMESRC=/home/app/local   0 B
+49193de3fa30        4 weeks ago         /bin/sh -c #(nop) ENV HOME=/home/app            0 B
+32fdd35c03d2        4 weeks ago         /bin/sh -c #(nop) USER [app]                    0 B
+a5d49ba954d0        4 weeks ago         /bin/sh -c groupadd -g 999 docker     && user   333.9 kB
+09ac75bf7f58        4 weeks ago         /bin/sh -c easy_install pip     && pip instal   10.61 MB
+f54c8cb9241d        4 weeks ago         /bin/sh -c #(nop) ENV LANG=en_US.utf8           0 B
+5027a6cc6a31        4 weeks ago         /bin/sh -c echo "en_US.UTF-8 UTF-8" >> /etc/l   1.648 MB
+272fde2da6cf        4 weeks ago         /bin/sh -c apt-get -y -qq --force-yes update    397.3 MB
+a7566924584d        4 weeks ago         /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
+fa81ed084842        4 weeks ago         /bin/sh -c #(nop) CMD ["/bin/bash"]             0 B
+e04c66a223c4        4 weeks ago         /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/   1.895 kB
+7e2c5c55ef2c        4 weeks ago         /bin/sh -c echo '#!/bin/sh' > /usr/sbin/polic   194.5 kB
+e118faab2e16        4 weeks ago         /bin/sh -c #(nop) ADD file:b43bf069650bac07b6   188.1 MB

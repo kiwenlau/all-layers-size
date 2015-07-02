@@ -1,0 +1,17 @@
+f62e333bd3c5        6 weeks ago          /bin/sh -c #(nop) ENTRYPOINT ["/start"]         0 B
+60d799e52fcb        6 weeks ago          /bin/sh -c #(nop) ADD file:7a38ddc0aa6df3983d   879 B
+69d795fe26a4        6 weeks ago          /bin/sh -c #(nop) COPY file:a87432457659fab7e   660 B
+190129e74689        6 weeks ago          /bin/sh -c #(nop) ADD tarsum+sha256:bda814c38   22.98 MB
+3fca8bed72c7        6 weeks ago          /bin/sh -c #(nop) ENV VERSION=0.4.5             0 B
+4c9967358fc2        6 weeks ago          /bin/sh -c apk-install bash                     1.587 MB
+37090dad085c        6 months ago         /bin/sh -c #(nop) CMD [/bin/sh]                 0 B
+8d1f1b0e9df0        6 months ago         /bin/sh -c apk-install openjdk7-jre-base=$JAV   116.8 MB
+7c6e5a567b42        6 months ago         /bin/sh -c #(nop) ENV JAVA_VERSION=7.71.2.5.3   0 B
+77c3d1c88b6b        6 months ago         /bin/sh -c #(nop) MAINTAINER Luis Lavena <lui   0 B
+c5ef8c7522b8        6 months ago         /bin/sh -c #(nop) CMD [/bin/sh]                 0 B
+feb56519521d        6 months ago         /bin/sh -c apk-install ca-certificates curl w   2.826 MB
+7468398321fd        6 months ago         /bin/sh -c apk update && apk upgrade            36.66 kB
+2239add4b301        6 months ago         /bin/sh -c #(nop) ADD file:196e06886d8a4091ed   54 B
+db6fa2b0ded7        6 months ago         /bin/sh -c #(nop) ADD file:41c73c04bdac308734   5.733 MB
+d8136e131778        6 months ago         /bin/sh -c #(nop) MAINTAINER Luis Lavena <lui   0 B
+511136ea3c5a        2.050559 years ago                                                   0 B

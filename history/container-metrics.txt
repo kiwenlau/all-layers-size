@@ -1,0 +1,18 @@
+2082f6f18e6c        8 weeks ago          /bin/sh -c #(nop) CMD [/run.sh]                 0 B
+0f4514289cea        8 weeks ago          /bin/sh -c #(nop) ENV DB_PASS=root              0 B
+6bce6ca9f160        8 weeks ago          /bin/sh -c #(nop) ENV DB_USER=root              0 B
+09a788cf91dd        8 weeks ago          /bin/sh -c #(nop) ENV DB_NAME=cadvisor          0 B
+c7bff2a487a5        8 weeks ago          /bin/sh -c chmod +x /*.sh                       969 B
+f6acfcdd0b1f        8 weeks ago          /bin/sh -c #(nop) ADD file:69fdebf12a996b1b27   969 B
+93e268d43beb        8 weeks ago          /bin/sh -c apt-get update -y &&     apt-get i   72.22 MB
+24bc1563c8e7        8 weeks ago          /bin/sh -c #(nop) ENV CADVISOR_TAG=0.9.0        0 B
+712d17947c06        8 weeks ago          /bin/sh -c #(nop) MAINTAINER Feng Honglin <hf   0 B
+2131eb65d199        10 months ago        /bin/sh -c apt-get update && apt-get install    11.41 MB
+cbde4a8607af        10 months ago        /bin/sh -c #(nop) MAINTAINER Feng Honglin <hf   0 B
+c4ff7513909d        10 months ago        /bin/sh -c #(nop) CMD [/bin/bash]               0 B
+cc58e55aa5a5        10 months ago        /bin/sh -c apt-get update && apt-get dist-upg   20.23 MB
+0ea0d582fd90        10 months ago        /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/   1.895 kB
+d92c3c92fa73        10 months ago        /bin/sh -c rm -rf /var/lib/apt/lists/*          0 B
+9942dd43ff21        10 months ago        /bin/sh -c echo '#!/bin/sh' > /usr/sbin/polic   194.5 kB
+1c9383292a8f        10 months ago        /bin/sh -c #(nop) ADD file:c1472c26527df28498   192.5 MB
+511136ea3c5a        2.050559 years ago                                                   0 B

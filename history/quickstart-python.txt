@@ -1,0 +1,19 @@
+d50f305a58b3        4 months ago         /bin/sh -c #(nop) CMD [python app.py]           0 B
+72c0311f6ea0        4 months ago         /bin/sh -c #(nop) ENV NAME=World                0 B
+86e7a3e12a13        4 months ago         /bin/sh -c #(nop) EXPOSE 80/tcp                 0 B
+59f1480dafb0        4 months ago         /bin/sh -c pip install -r requirements.txt      7.83 MB
+e8bdef776ac9        4 months ago         /bin/sh -c #(nop) ADD dir:3b5fc8cea5e2a79b6ca   39.97 kB
+3447f41b5989        4 months ago         /bin/sh -c #(nop) WORKDIR /app                  0 B
+31ff30c97af1        4 months ago         /bin/sh -c #(nop) CMD [python2]                 0 B
+c3f654c083c1        4 months ago         /bin/sh -c pip install virtualenv               7.706 MB
+64b7a6332aa2        4 months ago         /bin/sh -c set -x                               && mkdir -p /usr/src/pytho   62.19 MB
+db22e489f994        4 months ago         /bin/sh -c gpg --keyserver pool.sks-keyserver   28.05 kB
+2ef4015863b9        5 months ago         /bin/sh -c #(nop) ENV PYTHON_VERSION=2.7.9      0 B
+d71de2a8c19e        5 months ago         /bin/sh -c #(nop) ENV LANG=C.UTF-8              0 B
+5c8d97a24744        5 months ago         /bin/sh -c apt-get purge -y python.*            1.063 MB
+787349ce806c        5 months ago         /bin/sh -c apt-get update && apt-get install    384.6 MB
+6b030fdd4748        5 months ago         /bin/sh -c apt-get update && apt-get install    122.2 MB
+c90a56bfe7dd        5 months ago         /bin/sh -c apt-get update && apt-get install    44.34 MB
+0e30e84e9513        5 months ago         /bin/sh -c #(nop) CMD [/bin/bash]               0 B
+8771fbfe935c        5 months ago         /bin/sh -c #(nop) ADD file:bb4186f7901a59395e   122.8 MB
+511136ea3c5a        2.050559 years ago                                                   0 B

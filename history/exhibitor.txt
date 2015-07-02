@@ -1,0 +1,12 @@
+78dd7be45db5        19 months ago        /bin/sh -c #(nop) CMD [--help]                  0 B
+416878e8870f        19 months ago        /bin/sh -c #(nop) ENTRYPOINT ["/usr/bin/java"   0 B
+28ec051e3029        19 months ago        /bin/sh -c #(nop) EXPOSE [8080]                 0 B
+5f6ce5f6e095        19 months ago        /bin/sh -c cd /opt && mvn assembly:single       41.23 MB
+fae836222695        19 months ago        /bin/sh -c #(nop) ENV JAVA_HOME=/usr/lib/jvm/   0 B
+1b01b6f0afb1        19 months ago        /bin/sh -c wget -q -O /opt/pom.xml https://ra   1.348 kB
+5b993c4993d9        19 months ago        /bin/sh -c apt-get install -y -q wget maven     492.9 MB
+2fffa8c5858e        19 months ago        /bin/sh -c apt-get upgrade -y                   7 B
+114e0dcb406f        19 months ago        /bin/sh -c apt-get update                       144.4 MB
+d805670613ea        19 months ago        /bin/sh -c echo "deb http://archive.ubuntu.co   66 B
+b5b01e3e232a        19 months ago        /bin/sh -c #(nop) MAINTAINER Justin Plock <jp   0 B
+8dbd9e392a96        2.223144 years ago                                                   128 MB

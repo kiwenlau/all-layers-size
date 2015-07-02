@@ -1,0 +1,24 @@
+ec168b54c5e5        8 months ago         /bin/sh -c #(nop) CMD [/usr/local/bin/node /o   0 B
+a2fb88a60a2a        8 months ago         /bin/sh -c #(nop) VOLUME ["/opt/data"]          0 B
+c243118e72a4        8 months ago         /bin/sh -c #(nop) WORKDIR /opt/app              0 B
+732f95431f4f        8 months ago         /bin/sh -c #(nop) EXPOSE map[3001/tcp:{}]       0 B
+a23c4b097a25        8 months ago         /bin/sh -c cd /opt/app     && /usr/local/bin/   26.13 MB
+d7683dce04c0        8 months ago         /bin/sh -c #(nop) ADD dir:dbf95d5bbc2f2b0e15a   944 B
+1675cb5623b7        8 months ago         /bin/sh -c #(nop) ENV NODE_DB_PATH=/opt/data    0 B
+c543de9fa973        8 months ago         /bin/sh -c #(nop) ENV NODE_PORT=3001            0 B
+8c41351f802d        8 months ago         /bin/sh -c apt-get -y -qq --force-yes update    11.32 MB
+98f274d6ad68        8 months ago         /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
+4fff97e3b983        8 months ago         /bin/sh -c rm -rf ${NODE_SRC}/${NODE_TGZ}       0 B
+763c0a69bca6        8 months ago         /bin/sh -c mkdir ${NODE_SRC}     && cd ${NODE   23.08 MB
+7d4bad739229        8 months ago         /bin/sh -c #(nop) ENV NODE_SRC=/opt/src         0 B
+3dacd6758f14        8 months ago         /bin/sh -c #(nop) ENV NODE_TGZ=node-v0.10.32-   0 B
+dad131381a54        8 months ago         /bin/sh -c #(nop) ENV NODE_FILENAME=node-v0.1   0 B
+69667ea51ce9        8 months ago         /bin/sh -c #(nop) ENV NODE_VERSION=0.10.32      0 B
+1edc7d40fb01        8 months ago         /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
+fc183b81cd8a        8 months ago         /bin/sh -c #(nop) CMD [node]                    0 B
+813921ad49c7        8 months ago         /bin/sh -c apt-get -y -qq --force-yes clean     0 B
+1bf6265ac0c9        8 months ago         /bin/sh -c apt-get -y -qq --force-yes update    265.8 MB
+fb42cf21d5c1        8 months ago         /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
+71d9d77ae89e        8 months ago         /bin/sh -c #(nop) CMD [/bin/bash]               0 B
+848d84b4b2ab        8 months ago         /bin/sh -c #(nop) ADD file:b05876fc352a0895ba   121.9 MB
+511136ea3c5a        2.050559 years ago                                                   0 B

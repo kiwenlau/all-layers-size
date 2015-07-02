@@ -1,0 +1,21 @@
+3b7fbc5c9b4b        10 months ago        /bin/sh -c #(nop) CMD [/run.sh]                 0 B
+5587574e22e4        10 months ago        /bin/sh -c #(nop) EXPOSE map[4848/tcp:{} 8080   0 B
+a6bd7bd28c24        10 months ago        /bin/sh -c chmod +x /*.sh                       1.476 kB
+f2ec86814c07        10 months ago        /bin/sh -c #(nop) ADD file:2044d4418c70af44ec   167 B
+d0d174e641a6        10 months ago        /bin/sh -c #(nop) ADD file:0c17357221b7f6632e   217 B
+339951c44fef        10 months ago        /bin/sh -c #(nop) ADD file:8c4149191f7fabc1cf   833 B
+0894ebc19e86        10 months ago        /bin/sh -c #(nop) ADD file:25f9f9276434d0e0a7   259 B
+5f52a2b74e30        10 months ago        /bin/sh -c #(nop) ENV PATH=/opt/glassfish4/bi   0 B
+2b3ef6d2a341        10 months ago        /bin/sh -c apt-get update &&     apt-get inst   130.2 MB
+976f7cce7de0        10 months ago        /bin/sh -c #(nop) MAINTAINER Feng Honglin <hf   0 B
+2128079f9b8f        10 months ago        /bin/sh -c echo 'deb http://ppa.launchpad.net   308 MB
+28e5e6a80860        10 months ago        /bin/sh -c #(nop) ENV JAVA_HOME=/usr/lib/jvm/   0 B
+b9192a10c580        10 months ago        /bin/sh -c #(nop) ENV JAVA_VER=7                0 B
+3e9890d3403b        10 months ago        /bin/sh -c #(nop) MAINTAINER Feng Honglin <hf   0 B
+c4ff7513909d        10 months ago        /bin/sh -c #(nop) CMD [/bin/bash]               0 B
+cc58e55aa5a5        10 months ago        /bin/sh -c apt-get update && apt-get dist-upg   20.23 MB
+0ea0d582fd90        10 months ago        /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/   1.895 kB
+d92c3c92fa73        10 months ago        /bin/sh -c rm -rf /var/lib/apt/lists/*          0 B
+9942dd43ff21        10 months ago        /bin/sh -c echo '#!/bin/sh' > /usr/sbin/polic   194.5 kB
+1c9383292a8f        10 months ago        /bin/sh -c #(nop) ADD file:c1472c26527df28498   192.5 MB
+511136ea3c5a        2.050559 years ago                                                   0 B
