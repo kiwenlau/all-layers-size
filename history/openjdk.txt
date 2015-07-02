@@ -1,9 +1,0 @@
-8e309f1f5b82        4 weeks ago         /bin/sh -c #(nop) ENV JAVA_HOME=/usr/lib/jvm/   0 B
-a1932e8f0b0a        4 weeks ago         /bin/sh -c apt-get -y -qq --force-yes clean     0 B
-40eb9ff9ac4f        4 weeks ago         /bin/sh -c apt-get -y -qq install openjdk-7-j   365.9 MB
-ab412e1b2d66        4 weeks ago         /bin/sh -c apt-get -y -qq --force-yes update    22.18 MB
-76cbde46c442        4 weeks ago         /bin/sh -c #(nop) MAINTAINER Joao Paulo Dubas   0 B
-fa81ed084842        4 weeks ago         /bin/sh -c #(nop) CMD ["/bin/bash"]             0 B
-e04c66a223c4        4 weeks ago         /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/   1.895 kB
-7e2c5c55ef2c        4 weeks ago         /bin/sh -c echo '#!/bin/sh' > /usr/sbin/polic   194.5 kB
-e118faab2e16        4 weeks ago         /bin/sh -c #(nop) ADD file:b43bf069650bac07b6   188.1 MB

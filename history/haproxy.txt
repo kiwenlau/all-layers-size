@@ -1,8 +1,0 @@
-dfe3e3cd92a5        7 weeks ago         /bin/sh -c #(nop) CMD ["haproxy" "-f" "/usr/l   0 B
-5408df9cff00        7 weeks ago         /bin/sh -c buildDeps='curl gcc libc6-dev libp   8.149 MB
-09d6aa7ac4e3        7 weeks ago         /bin/sh -c #(nop) ENV HAPROXY_MD5=4b94b257f16   0 B
-f111ea60fdc4        7 weeks ago         /bin/sh -c #(nop) ENV HAPROXY_VERSION=1.5.12    0 B
-4ae31d69e28b        10 weeks ago        /bin/sh -c #(nop) ENV HAPROXY_MAJOR=1.5         0 B
-760f5612c717        10 weeks ago        /bin/sh -c apt-get update && apt-get install    4.774 MB
-b3d362b23ec1        10 weeks ago        /bin/sh -c #(nop) CMD ["/bin/bash"]             0 B
-21e4345e9035        10 weeks ago        /bin/sh -c #(nop) ADD file:20cd6318f68d34ca8e   84.98 MB

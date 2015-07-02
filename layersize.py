@@ -12,6 +12,16 @@ lines = f.readlines()
 lines.reverse()
 
 for line in lines :
-    print line[89:].rstrip('\n')
+    imagesize = line[89:].rstrip('\n')
+    number = imagesize.split(' ')[0]
+    if "GB" in imagesize :
+        sizeKB = float(number)*1024*1024
+    elif "MB" in imagesize :
+	sizeKB = float(number)*1024
+    elif "KB" in imagesize :
+	sizeKB = float(number)
+    else :
+	sizeKB = float(number)/1024
+    print sizeKB
 
 f.close()
